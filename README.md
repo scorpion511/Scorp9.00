@@ -1,22 +1,41 @@
-# PSFree version 1.5.0b
+# Welcome to SCORPION HACK WEBKIT PS4 9.00
+<p align="center">
+  <img src="logo_scorp.png" alt="Scorpion Logo" width="180" height="180" style="border-radius: 50%;"><br><br>
+  <a href="https://https://scorpion511.github.io/Scorp9.00">
+    <img src="https://shields.io" alt="Live Site">
+  </a>
+</p>
 
-Lapse Kex ported to 9.00
+## 🦂 PSFree: Scorpion Edition v1.5.0b
+**Lapse Kex ported to FW 9.00** ⚡
+* Very fast and highly reliable! 
+* Achieves around an **80% stability rate** out of the box.
 
-Very fast and reliable! Around 80% stability rate.
+---
 
-Update: I've added an payload having some process_dtor_handler patches related to aio bugs.. Now all games should work properly.. patches were made by abc for 8.0x and I ported to 9.00. Thx a lot to Sistro and CTN for some explanation on low level coding!!! :)
+### 🚀 Latest Updates
+* **AIO Bug Patches:** Added a payload containing crucial `process_dtor_handler` patches related to AIO bugs. 
+* **Fixes applied:** All games should now work properly under this environment. 
+* *Patches were originally built by abc for 8.0x and successfully ported to 9.00 by Scorpion.*
 
-PSFree is a collection of exploits for the PS4 console. The main focus of the 
-repo is for the PS4 but we try to make things portable to PS5.
+---
 
-* Exploits
-  * PSFree: src/psfree.mjs
-  * Lapse (kernel): src/scripts/lapse.mjs
+### 📁 Exploit Architecture
+PSFree is a high-performance collection of exploits optimized primarily for the PS4 console, with portability enhancements targeted for the PS5.
 
-# COPYRIGHT AND AUTHORS:
-AGPL-3.0-or-later (see src/COPYING). This repo belongs to the group
-`anonymous`. We refer to anonymous contributors as "anonymous" as well.
-# CREDITS:
-* anonymous for PS4 firmware kernel dumps
-* Check the appropriate files for any **extra** contributors. Unless otherwise
-  stated, everything here can also be credited to us.
+| Component | Source Path | Description |
+| :--- | :--- | :--- |
+| **WebKit Exploit** | `src/psfree.mjs` | Primary execution chain interface |
+| **Kernel Exploit** | `src/scripts/lapse.mjs` | Lapse Kernel Exploit integration |
+
+---
+
+### 🤝 Credits & Acknowledgments
+* **Sistro & CTN:** Big thanks for providing low-level coding explanations that made these optimizations possible!
+* **anonymous:** For tracking down and providing critical PS4 firmware kernel dumps.
+* *Check individual files for extra contributors. Unless stated otherwise, core updates are maintained here.*
+
+---
+
+### 📜 Copyright & Licensing
+Distributed under the **AGPL-3.0-or-later** license (see `src/COPYING` for full terms). This repository belongs upstream to the `anonymous` group, and anonymous contributors are fully credited under the same designation.
