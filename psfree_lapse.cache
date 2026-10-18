@@ -10,6 +10,8 @@ lapse.mjs
 aio_patches.bin
 goldhen.bin
 psfree.mjs
+img.jpg
+logo_scorp.png
 fonts\LiberationMono-Regular.ttf
 kpatch\900.elf
 module\chain.mjs
