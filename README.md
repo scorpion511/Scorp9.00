@@ -1,7 +1,7 @@
 # Welcome to SCORPION HACK WEBKIT PS4 9.00
 <p align="center">
   <img src="logo_scorp.png" alt="Scorpion Logo" width="180" height="180" style="border-radius: 50%;"><br><br>
-  <a href="https://https://scorpion511.github.io/Scorp9.00">
+  <a href="https://scorpion511.github.io/Scorp9.00">
     <img src="https://shields.io" alt="Live Site">
   </a>
 </p>
