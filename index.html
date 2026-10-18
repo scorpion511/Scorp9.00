@@ -19,7 +19,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
     <head>
         <meta charset='utf-8'>
         <title>PSFree-Lapse Exploit For PS4 9.00</title>
-        <style>
+               <style>
             @font-face {
                 font-family: 'logging';
                 src: url('fonts/LiberationMono-Regular.ttf');
@@ -27,7 +27,34 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
             #console {
                 font-family: 'logging';
             }
+
+            /* --- NEW STYLES PASTED HERE --- */
+            body {
+                margin: 0;
+                padding: 0;
+                background-image: url('img.jpg'); 
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                color: #ffffff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-height: 100vh;
+            }
+            .neon-logo {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                border: 4px solid #00f0ff;
+                box-shadow: 0 0 15px #00f0ff, inset 0 0 15px #00f0ff, 0 0 25px #ff0077;
+                margin-bottom: 20px;
+            }
         </style>
+
         <script>
         if (window.applicationCache.status=='0')
         {
@@ -36,6 +63,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         </script>
     </head>
     <body>
+        <img src="logo_scorp.png" alt="Logo" class="neon-logo"><br>
         PSFree: A PS4/PS5 Exploit Chain
         <br>
         <br>
